@@ -1,0 +1,102 @@
+:root {
+    --gradient: linear-gradient(90deg, #f1c40f, #f39c12);
+    --white-color: #fff;
+    --primary-color: #f1c40f;
+    --heading-text-color: #444;
+    --body-text-color: #666;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    /* transition: all linear .4s; */
+}
+
+.clear {
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+    font-size: 2rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: -120%;
+    background-color: #fff9;
+    height: 150%;
+    width: 20%;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+
+.btn:hover::before {
+    left: 120%;
+    transition: all linear 0.3s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #333;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--gradient);
+}
+
+.title {
+    font-size: 3.6rem;
+    color: var(--heading-text-color);
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+/* Magrin */
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+/* Padding */
+.pt-64 {
+    padding-top: 64px;
+}

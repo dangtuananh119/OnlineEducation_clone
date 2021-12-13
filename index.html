@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Education clone</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <!-- Start: Header -->
+    <header class="header">
+        <!-- Menu mobile -->
+        <input type="checkbox" hidden id="menu__check" class="menu-mobile__check">
+        <label for="menu__check" class="nav__overlay"></label>
+        <label for="menu__check" class='header__menu-icon bx bx-menu'></label>
+        <label for="menu__check" class='header__menu-close bx bx-x'></label>
+        <!-- Navbar mobile -->
+        <nav class="header__nav-mobile">
+            <ul class="header__nav-mobile-list">
+                <li class="header__nav-mobile-item">
+                    <a href="#home" class="header__nav-mobile-link">Home</a>
+                </li>
+                <li class="header__nav-mobile-item">
+                    <a href="#about" class="header__nav-mobile-link">About</a>
+                </li>
+                <li class="header__nav-mobile-item">
+                    <a href="#course" class="header__nav-mobile-link">Course</a>
+                </li>
+                <li class="header__nav-mobile-item">
+                    <a href="#teacher" class="header__nav-mobile-link">Teacher</a>
+                </li>
+                <li class="header__nav-mobile-item">
+                    <a href="#contact" class="header__nav-mobile-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Logo -->
+        <div class="header__logo">
+            <a href="#" class="header__logo-link"><i class='header__logo-icon bx bxs-graduation'></i>Education</a>
+        </div>
+        <!-- Navbar -->
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#home" class="header__nav-link">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#about" class="header__nav-link">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#course" class="header__nav-link">Course</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#teacher" class="header__nav-link">Teacher</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#contact" class="header__nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- User -->
+        <label for="loggin-checked" class='header__user bx bxs-user-circle'></label>
+    </header>
+    <!-- End: Header -->
+
+    <!-- Start: Loggin form -->
+    <div class="loggin-form">
+        <input type="checkbox" hidden id="loggin-checked" class="loggin-form__checkbox">
+        <label for="loggin-checked" class="loggin-form__overlay"></label>
+        <form action="" class="loggin-form__body">
+            <h3 class="loggin-form__heading">Loggin</h3>
+            <input type="email" placeholder="Email" id="" class="loggin-form__input">
+            <input type="password" placeholder="Password" id="" class="loggin-form__input">
+            <p class="loggin-form__text">Forget password? <a href="" class="loggin-form__link">Click hear.</a></p>
+            <p class="loggin-form__text">Don't have an account? <a href="" class="loggin-form__link">Register now.</a></p>
+            <input type="submit" value="Loggin" class="btn loggin-form__btn">
+            <label for="loggin-checked" class="loggin-form__close bx bx-x"></label>
+        </form>
+    </div>
+    <!-- End: Loggin form -->
+
+    <!-- Start: Home -->
+    <section class="home pt-64" id="home">
+        <div class="home__body">
+            <h1 class="home__heading">Education from home</h1>
+            <p class="home__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry standard dummy text ever since the 1500s.</p>
+            <button class="btn">Get started</button>
+        </div>
+        <div class="home__shape"></div>
+    </section>
+    <!-- End: Home -->
+
+    <!-- Start: About -->
+    <section class="about pt-64" id="about">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-6 m-12 c-12">
+                    <img src="./assets/img/About/about-img2.png" alt="" class="about__img">
+                </div>
+                <div class="col l-6 m-12 c-12 about__content-wrap">
+                    <div class="about__content">
+                        <h3 class="about__content-heading">Why choose us?</h3>
+                        <p class="about__content-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <p class="about__content-text">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                        <button class="btn about__content-btn">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: About -->
+
+    <!-- Start: Course -->
+    <section class="course pt-64" id="course">
+        <h1 class="title">Our popular course</h1>
+        <div class="grid wide">
+            <div class="course__container">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <a href="" class="course__item-link">
+                                <img src="./assets/img/Course/item_1.jpg" alt="" class="course__item-img">
+                            </a>
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <a href="" class="course__item-link">
+                                    <h3 class="course__item-name">Learn front end development</h3>
+                                </a>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <a href="" class="course__item-link">
+                                <img src="./assets/img/Course/item_2.jpg" alt="" class="course__item-img">
+                            </a>
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <a href="" class="course__item-link">
+                                    <h3 class="course__item-name">Learn front end development</h3>
+                                </a>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <a href="" class="course__item-link">
+                                <img src="./assets/img/Course/item_3.jpg" alt="" class="course__item-img">
+                            </a>
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <a href="" class="course__item-link">
+                                    <h3 class="course__item-name">Learn front end development</h3>
+                                </a>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <img src="./assets/img/Course/item_4.jpg" alt="" class="course__item-img">
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <h3 class="course__item-name">Learn front end development</h3>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <a href="" class="course__item-link">
+                                <img src="./assets/img/Course/item_5.jpg" alt="" class="course__item-img">
+                            </a>
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <a href="" class="course__item-link">
+                                    <h3 class="course__item-name">Learn front end development</h3>
+                                </a>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="course__item">
+                            <a href="" class="course__item-link">
+                                <img src="./assets/img/Course/item_6.jpg" alt="" class="course__item-img">
+                            </a>
+                            <h3 class="course__item-price">$50</h3>
+                            <div class="course__item-content">
+                                <div class="course__item-stars">
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                    <i class="course__item-star bx bxs-star"></i>
+                                </div>
+                                <a href="" class="course__item-link">
+                                    <h3 class="course__item-name">Learn front end development</h3>
+                                </a>
+                                <p class="course__item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <div class="course__item-info">
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-time-five"></i>2 hours</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bxs-calendar"></i>6 months</h3>
+                                    <h3 class="course__item-time"><i class="course__item-icon bx bx-book-open"></i>12 modules</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End: Course -->
+
+    <!-- Start: Teacher -->
+    <section class="teacher pt-64" id="teacher">
+        <h1 class="title">Our expert teachers</h1>
+        <p class="teacher__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas ipsam qui assumenda earum, iusto est nemo neque soluta dolorum aliquid?
+        </p>
+        <button class="btn teacher__btn">Learn more</button>
+    </section>
+    <!-- End: Teacher -->
+
+    <!-- Start: Contact -->
+    <section class="contact pt-64" id="contact">
+        <h1 class="title contact__heading">Contact us</h1>
+        <div class="contact__body">
+            <div class="contact__form">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <input type="text" placeholder="Your name" id="" class="contact__form-input">
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <input type="text" placeholder="Your phone" id="" class="contact__form-input">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <input type="email" placeholder="Enter your email" id="" class="contact__form-input">
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <input type="password" placeholder="Enter your password" id="" class="contact__form-input">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <textarea type="text" placeholder="Your address" id="" class="contact__form-input contact__form-input--special"></textarea>
+                        </div>
+                    </div>
+                    <div class="contact__btn-wrap">
+                        <button class="contact__btn">Send now</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="contact__img-wrap">
+                <img src="./assets/img/Contact/contact-img.png" alt="" class="contact__img">
+            </div>
+        </div>
+    </section>
+    <!-- End: Contact -->
+
+    <!-- Start: Footer -->
+    <section class="footer">
+        <div class="footer__body">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <h3 class="footer__body-title">Branch locations</h3>
+                        <ul class="footer__body-list">
+                            <li class="footer__body-item">
+                                <a href="" class="footer__body-link">Việt Nam</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="" class="footer__body-link">USA</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="" class="footer__body-link">India</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="" class="footer__body-link">France</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="" class="footer__body-link">Russia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <h3 class="footer__body-title">Quick links</h3>
+                        <ul class="footer__body-list">
+                            <li class="footer__body-item">
+                                <a href="#home" class="footer__body-link">Home</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="#about" class="footer__body-link">About</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="#course" class="footer__body-link">Course</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="#teacher" class="footer__body-link">Teachers</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <a href="#contact" class="footer__body-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <h3 class="footer__body-title">Contact info</h3>
+                        <ul class="footer__body-list">
+                            <li class="footer__body-item">
+                                <i class='footer__body-icon bx bx-location-plus' ></i>
+                                <a href="" class="footer__body-link">Vĩnh Phúc, Việt Nam</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <i class='footer__body-icon bx bx-mail-send' ></i>
+                                <a href="" class="footer__body-link">tuananh.dang119@gmail.com</a>
+                            </li>
+                            <li class="footer__body-item">
+                                <i class='footer__body-icon bx bx-phone'></i>
+                                <a href="" class="footer__body-link">+123.456.7890</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__bottom-text">
+                Design by <a href="" class="footer__bottom-link">Dang Tuan Anh</a>All rights reserved
+            </p>
+        </div>
+    </section>
+    <!-- End: Footer -->
+
+    <script src="./main.js"></script>
+</body>
+</html>

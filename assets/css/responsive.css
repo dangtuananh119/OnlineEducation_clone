@@ -1,0 +1,165 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    /* Title */
+    .title {
+        font-size: 2.6rem;
+    }
+
+    /* About */
+    .about__content {
+        position: unset;
+        transform: unset;
+        padding: 20px 0 0;
+    }
+
+    /* Teacher */
+    /* .teacher {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } */
+
+    .teacher__text {
+        width: 90%;
+    }
+
+    /* Contact */
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact__img {
+        display: none;
+    }
+    
+    .contact__btn {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* Loggin form */
+    .loggin-form__body {
+        width: 70%;
+    }
+    /* Home */
+    .home__heading {
+        font-size: 4rem;
+        margin-top: 50px;
+    }
+    .home__text {
+        font-size: 2rem;
+        width: 90%;
+    }
+    .home__shape {
+        height: 15rem;
+    }
+    /* About */
+    .about__content-heading {
+        font-size: 4.2rem;
+    }
+    .about__content-text {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header {
+        min-height: 50px;
+    }
+
+    .header__logo-link {
+        font-size: 1.8rem;
+    }
+
+    .header__user {
+        font-size: 3rem;
+    }
+
+    .header__menu-icon {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .menu-mobile__check:checked ~ .header__nav-mobile {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        right: 0;
+        background-color: #111;
+        display: block;
+        z-index: 3;
+    }
+
+    .menu-mobile__check:checked ~ .header__menu-icon {
+        display: none;
+    }
+
+    .menu-mobile__check:checked ~ .nav__overlay,
+    .menu-mobile__check:checked ~ .header__menu-close {
+        display: block;
+    }
+
+    .header__nav-mobile-list {
+        flex-direction: column;
+    }
+
+    .header__nav-mobile-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__nav-mobile-link {
+        font-size: 2rem;
+        display: block;
+        padding: 1.2rem 0;
+    }
+
+    .header__nav-mobile-link,
+    .header__nav-mobile-link.header__nav-mobile-link--active {
+        color: var(--primary-color);
+    }
+
+    /* Loggin form */
+    .loggin-form__body {
+        width: 90%;
+    }
+
+    /* Home */
+    .home__heading {
+        font-size: 2.6rem;
+        margin-top: 50px;
+    }
+    .home__text {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+    .home__shape {
+        height: 12rem;
+    }
+    /* About */
+
+    /* Course */
+    /* .course__item-price {
+        top: 45%;
+    } */
+
+    /* Contact */
+    .contact__body {
+        width: 90%;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
