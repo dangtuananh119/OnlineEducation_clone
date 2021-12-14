@@ -101,7 +101,7 @@
 }
 
 /* Loggin form */
-.loggin-form__overlay {
+.login-form__overlay {
     position: fixed;
     top: 0;
     right: 0;
@@ -113,7 +113,7 @@
     animation: fadeIn ease-out 0.3s;
 }
 
-.loggin-form__body {
+.login-form__body {
     width: 50%;
     background-color: var(--white-color);
     padding: 30px;
@@ -128,13 +128,13 @@
     animation: fadeIn ease-out 0.3s;
 }
 
-.loggin-form__heading {
+.login-form__heading {
     font-size: 3rem;
     color: var(--primary-color);
     padding-bottom: 8px;
 }
 
-.loggin-form__input {
+.login-form__input {
     width: 100%;
     border-bottom: 2px solid #666;
     font-size: 1.6rem;
@@ -143,34 +143,34 @@
     padding: 5px 0;
 }
 
-.loggin-form__input::placeholder {
+.login-form__input::placeholder {
     text-transform: capitalize;
 }
 
-.loggin-form__input:focus {
+.login-form__input:focus {
     border-color: var(--primary-color);
 }
 
-.loggin-form__text {
+.login-form__text {
     color: var(--body-text-color);
     font-size: 1.4rem;
     padding-top: 10px;
     text-align: left;
 }
 
-.loggin-form__link {
+.login-form__link {
     color: var(--primary-color);
 }
 
-.loggin-form__btn {
+.login-form__btn {
     width: 100%;
 }
 
-.loggin-form__btn:hover {
+.login-form__btn:hover {
     background-color: #444;
 }
 
-.loggin-form__close {
+.login-form__close {
     font-size: 3rem;
     color: #999;
     position: absolute;
@@ -180,12 +180,12 @@
     cursor: pointer;
 }
 
-.loggin-form__close:hover {
+.login-form__close:hover {
     color: #444;
 }
 
-.loggin-form__checkbox:checked ~ .loggin-form__overlay,
-.loggin-form__checkbox:checked ~ .loggin-form__body {
+.login-form__checkbox:checked ~ .login-form__overlay,
+.login-form__checkbox:checked ~ .login-form__body {
     display: block;
 }
 
