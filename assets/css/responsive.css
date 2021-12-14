@@ -44,7 +44,7 @@
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     /* Loggin form */
-    .loggin-form__body {
+    .login-form__body {
         width: 70%;
     }
     /* Home */
@@ -130,7 +130,7 @@
     }
 
     /* Loggin form */
-    .loggin-form__body {
+    .login-form__body {
         width: 90%;
     }
 
