@@ -11,6 +11,11 @@
         transform: unset;
         padding: 20px 0 0;
     }
+    
+    .about__content-btn-wrap {
+        width: 100%;
+        text-align: center;
+    }
 
     /* Teacher */
     /* .teacher {
